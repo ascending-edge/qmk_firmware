@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+echo "Press and hold fn-b for roughly 5 seconds and then release"
+
+./mdloader_linux \
+    --first \
+    --download \
+    massdrop_ctrl_greg-rowe.bin \
+    --restart
